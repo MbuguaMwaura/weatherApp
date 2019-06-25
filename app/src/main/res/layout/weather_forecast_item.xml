@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/gradient3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="Nairobi Weather"
+        android:id="@+id/forecastlocationName"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forecastlocationName"
+        android:id="@+id/forecastDate"
+        android:text="June 25th"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:id="@+id/forecastmainWeather"
+        android:padding="20dp"
+        android:text="Cloudy"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        />
+
+    <ImageView
+        android:id="@+id/forecastweatherImage"
+        android:layout_width="74dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/clouds" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forecastmainWeather"
+        android:id="@+id/forecastdescription"
+        android:layout_marginLeft="20dp"
+        android:text="heavy cloud cover"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/forecasttemp"-->
+        <!--android:layout_below="@+id/forecastdescription"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="Temp:                                     20.9 degrees"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="20sp"/>-->
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/line"-->
+        <!--style="?android:attr/listSeparatorTextViewStyle"-->
+        <!--android:paddingTop="5dip"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_below="@+id/forecastdescription"-->
+        <!--android:layout_width="370dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_height="0.8dp"-->
+        <!--android:background="@color/white" />-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/forecastpressure"-->
+        <!--android:layout_below="@+id/line2"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:text="Pressure:                               20"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="20sp"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/forecasthumidity"-->
+        <!--android:layout_below="@+id/line4"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:text="Humidity:                               20"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="20sp"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/line2"-->
+        <!--style="?android:attr/listSeparatorTextViewStyle"-->
+        <!--android:paddingTop="5dip"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_below="@+id/forecasttemp"-->
+        <!--android:layout_width="370dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_height="0.8dp"-->
+        <!--android:background="@color/white" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/line4"-->
+        <!--style="?android:attr/listSeparatorTextViewStyle"-->
+        <!--android:paddingTop="5dip"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_below="@+id/forecastpressure"-->
+        <!--android:layout_width="370dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_height="0.8dp"-->
+        <!--android:background="@color/white" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/line3"-->
+        <!--style="?android:attr/listSeparatorTextViewStyle"-->
+        <!--android:paddingTop="5dip"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_below="@+id/forecasthumidity"-->
+        <!--android:layout_width="370dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_height="0.8dp"-->
+        <!--android:background="@color/white" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/line5"-->
+        <!--style="?android:attr/listSeparatorTextViewStyle"-->
+        <!--android:paddingTop="5dip"-->
+        <!--android:layout_marginTop="80dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_below="@+id/line3"-->
+      <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.8dp"-->
+        <!--android:background="@color/white" />-->
+
+
+
+
+
+</RelativeLayout>

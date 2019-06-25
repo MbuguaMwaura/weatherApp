@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Nairobi Weather"
+        android:id="@+id/locationName"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/mainWeather"
+        android:padding="20dp"
+        android:text="Cloudy"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        />
+
+    <ImageView
+        android:id="@+id/weatherImage"
+        android:layout_width="74dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/clouds" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainWeather"
+        android:id="@+id/description"
+        android:layout_marginLeft="20dp"
+        android:text="heavy cloud cover"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temp"
+        android:layout_below="@+id/description"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Temp:                                     20.9 degrees"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempMax"
+        android:layout_below="@+id/temp"
+        android:layout_marginLeft="20dp"
+        android:text="Temp max:                            24.9 degrees"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/line"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/description"
+        android:layout_width="370dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="0.8dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempMin"
+        android:layout_below="@+id/tempMax"
+        android:layout_marginLeft="20dp"
+        android:text="Temp min:                             12.9 degrees"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pressure"
+        android:layout_below="@+id/line2"
+        android:layout_marginLeft="20dp"
+        android:text="Pressure:                               20"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/humidity"
+        android:layout_below="@+id/line4"
+        android:layout_marginLeft="20dp"
+        android:text="Humidity:                               20"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/line2"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:paddingTop="5dip"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tempMin"
+        android:layout_width="370dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="0.8dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/line4"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:paddingTop="5dip"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/pressure"
+        android:layout_width="370dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="0.8dp"
+        android:background="@color/white" />
+
+
+    <TextView
+        android:id="@+id/line3"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:paddingTop="5dip"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/humidity"
+        android:layout_width="370dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="0.8dp"
+        android:background="@color/white" />
+
+
+
+
+
+</RelativeLayout>
